@@ -1,0 +1,7 @@
+<div class="container">
+  <h2>Real-Time Currency Converter (INR to USD)</h2>
+  <label>Enter Amount in INR:</label>
+  <input type="number" [(ngModel)]="inrAmount" placeholder="Enter INR amount" />
+  
+  <h3>Converted Amount: {{ usdAmount | number:'1.2-2' }} USD</h3>
+</div>
